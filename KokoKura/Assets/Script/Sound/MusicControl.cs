@@ -7,10 +7,12 @@ public class MusicControl : MonoBehaviour {
 	public AudioSource[] audios;
 
 	void Awake(){
-	
+		InvokeRepeating ("PlayBeat", 1, 0.6f);
 
 	}
-
+	void PlayBeat(){
+		audios[1].Play();
+	}
 
 	
 	// Update is called once per frame
@@ -57,4 +59,5 @@ public class MusicControl : MonoBehaviour {
 			//}
 		}
 	}
+
 }
