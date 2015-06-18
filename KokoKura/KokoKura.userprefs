@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Getting Started/Assets/Scripts/Animation Control/Script_animationcontroller.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Sound/MusicControl.cs">
     <Files>
-      <File FileName="../../Getting Started/Assets/Scripts/Animation Control/Script_animationcontroller.cs" Line="84" Column="56" />
+      <File FileName="Assets/Script/Sound/MusicControl.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
