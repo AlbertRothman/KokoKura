@@ -2,7 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Sound/MusicControl.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets/Script/Sound/MusicControl.cs" Line="61" Column="2" />
+=======
+      <File FileName="Assets/Script/Sound/MusicControl.cs" Line="16" Column="2" />
+>>>>>>> master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
