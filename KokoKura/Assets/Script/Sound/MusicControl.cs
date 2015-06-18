@@ -7,14 +7,18 @@ public class MusicControl : MonoBehaviour {
 	public AudioSource[] audios;
 
 	void Awake(){
-		InvokeRepeating ("PlayBeat", 1, 0.6f);
+		InvokeRepeating ("PlayBeat", 1, 0.5f);
+		InvokeRepeating ("PlayBeat2", 1, 1);
+
 
 	}
 	void PlayBeat(){
-		audios[1].Play();
+	audios[1].Play();
 	}
 
-	
+	void PlayBeat2(){
+	//	audios[0].Play();
+	}
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.A)) {
