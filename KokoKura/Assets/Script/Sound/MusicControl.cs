@@ -48,9 +48,9 @@ public class MusicControl : MonoBehaviour {
 			//}
 		}
 		if (Input.GetKeyDown (KeyCode.K)) {
-			if(!audios[3].isPlaying){
+			//if(!audios[3].isPlaying){
 				audios[3].Play();
-			}
+			//}
 		}
 		if (Input.GetKeyDown (KeyCode.J)) {
 			//if(!audios[5].isPlaying){

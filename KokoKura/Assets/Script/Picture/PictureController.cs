@@ -12,14 +12,40 @@ public class PictureController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.J)) {
+		if (Input.GetKeyDown (KeyCode.A)) {
+			pictures[0].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(1, .5f));
+		}
+		if (Input.GetKeyDown (KeyCode.S)) {
+			pictures[2].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(0, .5f));
+		}
+		if (Input.GetKeyDown (KeyCode.D)) {
+			pictures[4].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(1, .5f));
+		}
+		if (Input.GetKeyDown (KeyCode.F)) {
+			pictures[6].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(0, .5f));
+		}
+		if (Input.GetKeyDown (KeyCode.L)) {
 			pictures[1].GetComponent<Renderer>().enabled = true;
 			StartCoroutine(DisablePicture(1, .5f));
 		}
-		if (Input.GetKeyDown (KeyCode.H)) {
-			pictures[0].GetComponent<Renderer>().enabled = true;
+		if (Input.GetKeyDown (KeyCode.K)) {
+			pictures[3].GetComponent<Renderer>().enabled = true;
 			StartCoroutine(DisablePicture(0, .5f));
 		}
+		if (Input.GetKeyDown (KeyCode.J)) {
+			pictures[5].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(1, .5f));
+		}
+		if (Input.GetKeyDown (KeyCode.H)) {
+			pictures[7].GetComponent<Renderer>().enabled = true;
+			StartCoroutine(DisablePicture(0, .5f));
+		}
+
+
 
 	}
 
